@@ -63,6 +63,9 @@ The complete development lifecycle, training history, and output files are acces
 
 *Note: You can run this notebook directly in the Kaggle cloud with a T4 GPU accelerator to reproduce the training execution and generate the optimal `helmnet_perfect_model.pth` weights file automatically.*
 
+##📄 License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
 ### Final Validation Report
 ```text
 Confusion Matrix:
