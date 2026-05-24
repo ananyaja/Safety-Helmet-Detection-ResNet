@@ -48,7 +48,7 @@ git clone https://github.com/ananyaja/Safety-Helmet-Detection-ResNet.git
 ## 🌐 Live Environment & Notebook
 
 The complete development lifecycle, training history, and output files are accessible directly on Kaggle:
-👉 **[View the Live Kaggle Notebook](https://www.kaggle.com/code/ananyajadebadipta/notebookb5bbe5c4d9/output?select=helmnet_perfect_model.pth)**
+👉 **[View the Live Kaggle Notebook](https://www.kaggle.com/code/ananyajadebadipta/notebookb5bbe5c4d9/)**
 
 *Note: You can run this notebook directly in the Kaggle cloud with a T4 GPU accelerator to reproduce the training execution and generate the optimal `helmnet_perfect_model.pth` weights file automatically.*
 
