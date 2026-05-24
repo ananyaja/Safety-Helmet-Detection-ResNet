@@ -1,12 +1,10 @@
 # Safety-Helmet-Detection-ResNet
-Safety-Helmet-Detection-ResNet is an end-to-end computer vision pipeline designed to automate industrial safety compliance by accurately classifying the presence of protective safety helmets in images.
-# Safety-Helmet-Detection-ResNet
 
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://www.python.org/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.0%2B-ee4c2c.svg)](https://pytorch.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-An end-to-end computer vision pipeline developed to automate industrial safety compliance by accurately classifying the presence of protective safety helmets in images. Built using **PyTorch**, this project leverages a fine-tuned **ResNet18** deep convolutional neural network backbone to extract complex spatial patterns and optimize object boundary detection.
+An end-to-end computer vision pipeline developed to automate industrial safety compliance by accurately classifying the presence of protective safety helmets in images. Built using **PyTorch**, this project leverages a fine-tuned **ResNet18** deep convolutional neural network backbone to extract complex spatial patterns and optimise object boundary detection.
 
 ---
 
@@ -31,6 +29,28 @@ An end-to-end computer vision pipeline developed to automate industrial safety c
 ## 📈 Model Performance & Evaluation
 
 The pipeline utilizes an automatic early stopping checkpoint that saves the model parameters at the absolute lowest point of validation loss. This prevents semantic decay and ensures the model is frozen at the peak of its generalization ability.
+
+![Performance Curves](training_performance.png)
+
+## **📦 Project Deliverables & Files**
+* **Safety_Helmet_Detection.ipynb:** The complete production notebook containing data splitting, custom pipelines, fine-tuned architecture definition, and execution history logs.
+
+* **training_performance.png:** Visual training history chart displaying the optimization progression across both loss and accuracy channels.
+
+* **submission.csv:** Compiled high-confidence target prediction strings formatted according to standard evaluation criteria (held locally / evaluated out-of-repo).
+
+* **helmnet_perfect_model.pth:** Saved PyTorch state dictionary checkpoint containing optimal model weights (held locally due to storage constraints).
+
+## **🔧 How to Run the Pipeline**
+
+git clone https://github.com/ananyaja/Safety-Helmet-Detection-ResNet.git
+
+## 🌐 Live Environment & Notebook
+
+The complete development lifecycle, training history, and output files are accessible directly on Kaggle:
+👉 **[View the Live Kaggle Notebook]([YOUR_KAGGLE_NOTEBOOK_URL_HERE](https://www.kaggle.com/code/ananyajadebadipta/notebookb5bbe5c4d9/output?select=helmnet_perfect_model.pth)**
+
+*Note: You can run this notebook directly in the Kaggle cloud with a T4 GPU accelerator to reproduce the training execution and generate the optimal `helmnet_perfect_model.pth` weights file automatically.*
 
 ### Final Validation Report
 ```text
