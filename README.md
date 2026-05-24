@@ -43,7 +43,18 @@ The pipeline utilizes an automatic early stopping checkpoint that saves the mode
 
 ## **🔧 How to Run the Pipeline**
 
+Clone the Repository:
 git clone https://github.com/ananyaja/Safety-Helmet-Detection-ResNet.git
+
+Install Dependencies:
+Install all required libraries automatically using pip:
+pip install -r requirements.txt
+
+Configure Data Sources:
+Place your private dataset files (images_proj.npy and Labels_proj.csv) into your workspace directory and ensure the target paths match your local file layout configuration.
+
+Execute Training:
+Open the notebook in a GPU-accelerated environment (such as Kaggle with a T4 or P100 GPU instance) and execute all cells to train the model, save weights, map visualizations, and generate submission predictions.
 
 ## 🌐 Live Environment & Notebook
 
